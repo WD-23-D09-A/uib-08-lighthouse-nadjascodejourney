@@ -18,7 +18,7 @@ body {
 }
 
 .nav {
-  background-color: #595858;
+  background-color: #000000;
   padding: 12px;
   border-radius: 8px;
 }
@@ -30,13 +30,15 @@ body {
 
 a {
   text-decoration: none;
-  cursor: none;
-  color: #7e7d7d;
+  cursor: pointer;
+  color: #ffffff;
+  padding: 15px 15px;
+  margin: 8px;
 }
 
 h1,
 h2 {
-  color: #c6c4c4;
+  color: #522525;
 }
 
 h1,
@@ -64,7 +66,7 @@ li {
 }
 
 ol li {
-  font-size: 10px;
+  font-size: 1em;
 }
 
 .footer {
@@ -79,5 +81,10 @@ ol li {
 }
 
 .footer p {
-  color: #00ffe5b1;
+  color: #072c28b1;
+  text-align: center;
+}
+
+.dci-link {
+  color: black;
 }
