@@ -1,0 +1,20 @@
+{
+  "name": "uib-box-model-make-it-accessible",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm run install"
+  },
+  "dependencies": {
+    "jest": "^28.1.0",
+    "lighthouse": "^9.6.2",
+    "puppeteer": "^14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-box-model-make-it-accessible",
+    "id": 377154092
+  }
+}
